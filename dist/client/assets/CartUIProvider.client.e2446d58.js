@@ -1,0 +1,2 @@
+import{a as e,j as l}from"./vendor.6dd26a1e.js";const n=e.exports.createContext(null);function x({children:u}){const[r,t]=e.exports.useState(!1),o=e.exports.useCallback(()=>{t(!0)},[t]),s=e.exports.useCallback(()=>{t(!1)},[t]),a=e.exports.useCallback(()=>{t(!r)},[t,r]),c=e.exports.useMemo(()=>({isCartOpen:r,openCart:o,closeCart:s,toggleCart:a}),[r,o,s,a]);return l(n.Provider,{value:c,children:u})}function C(){return e.exports.useContext(n)}export{n as CartContext,x as default,C as useCartUI};
+//# sourceMappingURL=CartUIProvider.client.e2446d58.js.map

@@ -1,0 +1,2 @@
+import{u as l,a as e,j as v,L as x}from"./vendor.6dd26a1e.js";function C({localization:t,children:u}){const{setServerState:r}=l(),[o,c]=e.exports.useState(t.country),[s]=e.exports.useState(t.availableCountries),a=e.exports.useCallback(n=>{c(n),r("country",n)},[r]),i=e.exports.useMemo(()=>({country:o,setCountry:a,availableCountries:s}),[o,a,s]);return v(x.Provider,{value:i,children:u})}export{C as default};
+//# sourceMappingURL=LocalizationClientProvider.client.b34b8fd6.js.map

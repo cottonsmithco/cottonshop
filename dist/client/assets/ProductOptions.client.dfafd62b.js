@@ -1,0 +1,2 @@
+import{n as a,j as t,F as l}from"./vendor.6dd26a1e.js";function m(){const{options:o,setSelectedOption:r,selectedOptions:c}=a();return t(l,{children:o.map(({name:e,values:i})=>t("fieldset",{className:"mt-8",children:t("div",{className:"flex items-center flex-wrap gap-4",children:i.map(s=>{const d=c[e]===s,n=`option-${e}-${s}`;return t("label",{htmlFor:n,children:t("input",{className:"sr-only",type:"radio",id:n,name:`option[${e}]`,value:s,checked:d,onChange:()=>r(e,s)})},n)})})},e))})}export{m as default};
+//# sourceMappingURL=ProductOptions.client.dfafd62b.js.map
